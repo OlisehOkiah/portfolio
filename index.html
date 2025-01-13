@@ -32,7 +32,7 @@
                     <p style="padding-top: 0;">My Mission? To use data science as a tool to crack tough problems and help businesses make smarter, data-driven decisions. Whether it's predicting trends or visualizing complex datasets, I thrive on finding those "aha" moments hidden in the numbers.</p>
                 </div>
                 <div class="about-col">
-                    <img src="eduford_img/data analyst.avif">
+                    <img src="eduford_img/IMG_3236.JPG">
                 </div>
         
             </div>
@@ -173,7 +173,164 @@
                     
         </div>
     </section>
+
+    <style media="screen">
         
+    
+    
+    .container{
+        margin: auto;
+        margin-bottom: 100px;
+      width: 70%;
+      padding: 30px 30px 50px;
+      border: 2px solid rgba(255,255,255,0.06);
+      border-radius: 10px;
+      box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+      backdrop-filter: blur(10px);
+    } 
+    .container *{
+      font-family: "Poppins",sans-serif;
+      color: white;
+      font-weight: 500;
+    }
+    h2{
+      margin-bottom: 50px;
+      letter-spacing: 2px;
+      text-align: center;
+      font-size: 33px;
+      font-weight: bold;
+    }
+    .skills:not(:last-child){
+      margin-bottom: 30px;
+    }
+    .details{
+      width: 100%;
+      display: flex;  
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .bar{
+      position: relative;
+    
+      border: 2px solid #0d96e0;
+    
+      border-radius: 20px;
+    
+    }
+    .bar div{
+      position: relative;
+      width: 0;
+      height: 9px;
+      border-radius: 10px;
+      background-color: #0d96e0;
+     
+    
+    }
+    #html-bar{
+      animation: html-fill 2s forwards;
+    }
+    @keyframes html-fill{
+      100%{
+          width: 90%;
+      }
+    }
+    #css-bar{
+      animation: css-fill 2s forwards;
+    }
+    @keyframes css-fill{
+      100%{
+          width: 95%;
+      }
+    }
+    #js-bar{
+      animation: js-fill 2s forwards;
+    }
+    @keyframes js-fill {
+      100%{
+          width: 85%;
+      }
+    }
+    #jQuery-bar{
+      animation: jQuery-fill 2s forwards;
+    }
+    @keyframes jQuery-fill{
+      100%{
+          width: 58%;
+      }
+    } 
+      </style>
+
+        <div class="wrapper">
+            <div class="shape-1"></div>
+            <div class="shape-2"></div>
+            <div class="container">
+                <h2>My Skills </h2>
+                <div class="skills">
+                    <div class="details">
+                        <span>PYTHON</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="html-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>SQL</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="js-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>EXEL</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="css-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>Power BI</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="css-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>Tableau</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="html-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>Machine Learning</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="js-bar"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="details">
+                        <span>Statistical Analysis</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="html-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <!----------footer---=----->
     <section class="footer" id="footers">
@@ -189,8 +346,8 @@
                 <a href="http://www.linkedin.com/in/oliseh-okiah"><i class="fa-brands fa-linkedin"></i></a>
             </div>
     </section>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="index.js"></script>
-    
+    <script src='https://raw.github.com/LeaVerou/HTML5-Progress-polyfill/master/progress-polyfill.min.js'></script>
 </body>
 </html>
